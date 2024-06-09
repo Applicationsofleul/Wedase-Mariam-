@@ -1,0 +1,119 @@
+@keyframes slideinleft{
+  from{
+    transform: translateX(-300px)
+  }
+  to{
+    transform: translateX(0px)
+  }
+}
+@keyframes slideindown{
+    from{
+        transform: translateY(-300px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+@keyframes fadein{
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+@keyframes color{
+    from{
+        color: black;
+    }
+    to{
+        color: red;
+    }
+}
+body {
+  scroll-behavior: smooth;
+  background: wheat;}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    animation-name: slideindown;
+    animation-duration: 1s;
+}
+h2{
+    text-align: center;
+    animation-name: color;
+    animation-duration: 3s;
+    color: red;
+}
+h3{
+    text-align: center;
+    animation-name: fadein;
+    animation-duration: 2s;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+}
+#main div a button{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 20px;
+    align-items: center;
+    background: none;
+    border-radius: 30px;
+    border: 2px solid;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    }
+.div1{
+    animation-name: slideinleft;
+    animation-duration: 1s;
+}
+.div2{
+    animation-name: slideinleft;
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+}
+.div3{
+    animation-name: slideinleft;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+}
+.div4{
+    animation-name: slideinleft;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+}
+.div5{
+    animation-name: slideinleft;
+    animation-duration: 1s;
+    animation-delay: 0.4s;
+}
+.div6{
+    animation-name: slideinleft;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+}
+.div7{
+    animation-name: slideinleft;
+    animation-duration: 1s;
+    animation-delay: 0.6s;
+}
+.div8{
+    animation-name: slideinleft;
+    animation-duration: 1s;
+    animation-delay: 0.7s;
+}
+.div9{
+    animation-name: slideinleft;
+    animation-duration: 1s;
+    animation-delay: 0.8s;
+}
+.div10{
+    animation-name: slideinleft;
+    animation-duration: 1s;
+    animation-delay: 0.9s;
+}
