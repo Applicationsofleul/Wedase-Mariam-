@@ -8,11 +8,12 @@ html{
 P{
     text-indent: 8px;
     text-align: justify;
-    font-size: 20px;
-    margin-right: 10px;
+    font-size: 50px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 h2{
-    font-size: 25px;
+    font-size: 60px;
     text-align: center;
 }
 .fot{
@@ -30,7 +31,7 @@ h2{
   padding: 15px;
   display: block;
   text-align: center;
-  font-size: 20px;
+  font-size: 50px;
 }
 .fot a:hover {
 background-color: #27272B 
