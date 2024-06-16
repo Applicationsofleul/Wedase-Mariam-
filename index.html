@@ -5,6 +5,11 @@
     <title>ማውጫ</title>
     <link rel="stylesheet" href="Home.css">
     <link rel="manifest" href="manifest.json">
+    <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('serviceWorker.js');
+  }
+    </script>
 </head>
 <body>
     <noscript>
